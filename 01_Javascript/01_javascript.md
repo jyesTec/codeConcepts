@@ -542,10 +542,25 @@ The <code>await</code> keyword is used to wait for the fetch function to get the
     - etc..
 
 ##
-### 11. 
+### 11. Rest & Spread Operator
+- Spread ___ used to spread the elements of an iterable(such as anArray or Object) into the individual elements
 
+- Rest___used to collect multiple elements and condense them in a single array, Often usedto handle an indefinite number of args.
 
+  ```javascript
+    function sum(...numbers){ // by using spread operator, we pack all the elements in an array.
+      return numbers.reduce((total,number)=>{}) // reduce, is the method which takes the array/Objects for performing any operations.
+    }
+    sum(1,2,3,4,5)  // passed the args separately.
 
+    // Spread Operator
+    const arr1 = [1,2,3]
+    const arr2 = [4,5]
+    const arr3 = [...arr1, ...arr2] // this doesn't creates 2 array, becoz here, we are spliting the elements individually creating single array
+    console.log(arr3);  //[1,2,3,4,5]
+  ```
+here, the sum() takes an array of Nos as an argument using the rest operator.
+The spread operator is used to expand the array into individual elements 
 
 
 
