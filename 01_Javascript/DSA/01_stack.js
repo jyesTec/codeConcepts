@@ -1,5 +1,5 @@
-// Stack___is the type of dataStructure which acts same like Array where the addition or removal of elements are governed by us.
-// This has an approach of LIFO.
+//- Stack___is the type of dataStructure which acts same like Array where the addition or removal of elements are governed by us.
+//- This has an approach of LIFO.
 
 
 class Stack{
@@ -8,18 +8,18 @@ class Stack{
     }
 
     push(data){
-        this.stack.push(data)   // Appends new elements to the end of an array and returns the new Length of an array.
+        this.stack.push(data)   //= Appends new elements to the end of an array and returns the new Length of an array.
     }
     pop(){
-        this.stack.pop() // Removes the lastEle from an Array and returns it. Doesn't make any modification in the existing Array.
+        this.stack.pop() //= Removes the lastEle from an Array and returns it. Doesn't make any modification in the existing Array.
     }
 
     peek(){
-        return this.stack[this.stack.length - 1]    // gets the top element of an array.
+        return this.stack[this.stack.length - 1]    //= gets the top element of an array.
     }
 
     isEmpty(){
-        return this.stack.length === 0  // checks if the array is empty
+        return this.stack.length === 0  //= checks if the array is empty
     }
 
     size(){

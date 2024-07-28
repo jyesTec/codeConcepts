@@ -1,4 +1,4 @@
-// Queue___the data structure which follows FIFO, where the elements are added to the end and removed from the begining.
+//- Queue___the data structure which follows FIFO, where the elements are added to the end and removed from the begining.
 // it includes the methods to
     // -> Add elements
     // -> Remove elements
@@ -22,7 +22,7 @@ class Queue{
         if(this.isEmpty()){
             return "The queue is Empty"
         }
-        return this.queue.shift()   //_ removes the first element from an array and returns it, simultaneously shifts the elements. here the array is not modified.
+        return this.queue.shift()   //= removes the first element from an array and returns it, simultaneously shifts the elements. here the array is not modified.
     }
 
     isEmpty(){
